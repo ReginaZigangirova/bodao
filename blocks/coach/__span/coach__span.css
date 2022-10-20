@@ -1,0 +1,5 @@
+.coach__span {
+    text-shadow: none;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}

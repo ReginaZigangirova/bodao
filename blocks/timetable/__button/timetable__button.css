@@ -1,0 +1,33 @@
+.timetable__button {
+    background: #F9BA50;
+    border-radius: 0px 40px 40px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 17px 93.50px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+    .timetable__button {
+        padding: 17px 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .timetable__button {
+        margin-top: 30px;
+        padding: 17px 91px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .timetable__button {
+        padding: 17px 74px;
+    }
+}

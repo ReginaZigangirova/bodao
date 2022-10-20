@@ -1,0 +1,27 @@
+.school__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin: 46px 0 0;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .school__title {
+        margin: 10px 0 0;
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .school__title {
+        margin: 0;
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .school__title {
+        display: none;
+    }
+}

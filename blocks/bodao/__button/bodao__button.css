@@ -1,0 +1,19 @@
+.bodao__button {
+    border: none;
+    background: #F9BA50;
+    border-radius: 0px 40px 40px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 17px 40px;
+    height: 55px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .bodao__button {
+        margin-top: 40px;
+    }
+}

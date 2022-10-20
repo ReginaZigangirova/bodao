@@ -1,0 +1,16 @@
+.timetable__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timetable__row:last-of-type {
+    margin-top: 60px; 
+}
+
+@media screen and (max-width: 768px) {
+    .timetable__row:last-of-type {
+        margin-top: 61px;
+    }
+}
+

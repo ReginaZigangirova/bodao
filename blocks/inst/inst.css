@@ -1,0 +1,27 @@
+.inst {
+    padding: 150px 315px 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .inst {
+        padding: 150px 150px 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .inst {
+        padding: 150px 100px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inst {
+        padding: 80px 20px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .inst {
+        padding: 60px 20px 0;
+    }
+}

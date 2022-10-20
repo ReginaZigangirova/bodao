@@ -1,0 +1,25 @@
+.coach__word {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .coach__word {
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        margin: 0;
+        color: #FFFFFF;
+        max-width: 354px;
+        position: absolute;
+        bottom: -165px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .coach__word {
+        font-size: 14px;
+        bottom: -145px;
+        max-width: 320px;
+    }
+}

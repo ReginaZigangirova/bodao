@@ -1,0 +1,19 @@
+.footer__row {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__row {
+        display: flex;
+        border-top: 1px solid #FFFFFF;
+        margin-top: 40px;
+        padding-top: 20px;
+        justify-content: space-between;
+       }
+}
+
+@media screen and (max-width: 540px) {
+    .footer__row {
+        font-size: 44px;
+    }
+}

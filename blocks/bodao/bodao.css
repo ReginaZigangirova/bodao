@@ -1,0 +1,27 @@
+.bodao {
+    padding: 0 315px 0 314px;
+}
+
+@media screen and (max-width: 1440px) {
+    .bodao {
+        padding: 0 150px 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .bodao {
+        padding: 0 100px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bodao {
+        padding: 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bodao {
+        padding: 0 ;
+    }
+}

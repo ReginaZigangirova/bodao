@@ -1,0 +1,14 @@
+.timetable__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%; 
+    color: #FFFFFF;
+    margin: 54px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .timetable__text {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+}

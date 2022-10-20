@@ -1,0 +1,20 @@
+.timetable__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .timetable__title {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .timetable__title {
+        font-size: 24px;
+    }
+}

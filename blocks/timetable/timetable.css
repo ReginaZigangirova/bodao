@@ -1,0 +1,27 @@
+.timetable {
+    padding: 150px 315px 0 315px;
+}
+
+@media screen and (max-width: 1440px) {
+    .timetable {
+        padding: 150px 150px 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .timetable {
+        padding: 150px 100px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .timetable {
+        padding: 80px 20px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .timetable {
+        padding: 60px 20px 0;
+    }
+}

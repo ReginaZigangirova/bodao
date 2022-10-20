@@ -1,0 +1,87 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/font.css);
+
+@import url(../blocks/wrapper/wrapper.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__img/header__img.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__number/header__number.css);
+@import url(../blocks/header/__phone/header__phone.css);
+@import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/header/__case/header__case.css);
+@import url(../blocks/header/__row/header__row.css);
+
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/bodao/bodao.css);
+@import url(../blocks/bodao/__button/bodao__button.css);
+@import url(../blocks/bodao/__container/bodao__container.css);
+@import url(../blocks/bodao/__description/bodao__description.css);
+@import url(../blocks/bodao/__subtitle/bodao__subtitle.css);
+@import url(../blocks/bodao/__title/bodao__title.css);
+@import url(../blocks/bodao/__content/bodao__content.css);
+@import url(../blocks/bodao/__arrow/bodao__arrow.css);
+
+@import url(../blocks/school/school.css);
+@import url(../blocks/school/__arrow/school_arrow.css);
+@import url(../blocks/school/__button/school__button.css);
+@import url(../blocks/school/__container/school__container.css);
+@import url(../blocks/school/__content/school__content.css);
+@import url(../blocks/school/__img/school__img.css);
+@import url(../blocks/school/__text/school__text.css);
+@import url(../blocks/school/__title/school__title.css);
+@import url(../blocks/school/__head/school__head.css);
+
+@import url(../blocks/coach/coach.css);
+@import url(../blocks/coach/__container/coach__container.css);
+@import url(../blocks/coach/__text/coach__text.css);
+@import url(../blocks/coach/__title/coach__title.css);
+@import url(../blocks/coach/__content/coach__content.css);
+@import url(../blocks/coach/__description/coach__description.css);
+@import url(../blocks/coach/__span/coach__span.css);
+@import url(../blocks/coach/__word/coach__word.css);
+
+@import url(../blocks/direction/direction.css);
+@import url(../blocks/direction/__list-item/direction__list-item.css);
+@import url(../blocks/direction/__list/direction__list.css);
+@import url(../blocks/direction/__text/direction__text.css);
+@import url(../blocks/direction/__title/direction__title.css);
+
+@import url(../blocks/timetable/timetable.css);
+@import url(../blocks/timetable/__action/timetable__action.css);
+@import url(../blocks/timetable/__arrow/timetable__arrow.css);
+@import url(../blocks/timetable/__button/timetable__button.css);
+@import url(../blocks/timetable/__container/timetable__container.css);
+@import url(../blocks/timetable/__card/timetable__card.css);
+@import url(../blocks/timetable/__data/timetable__data.css);
+@import url(../blocks/timetable/__price/timetable__price.css);
+@import url(../blocks/timetable/__row/timetable__row.css);
+@import url(../blocks/timetable/__sum/timetable__sum.css);
+@import url(../blocks/timetable/__text/timetable__text.css);
+@import url(../blocks/timetable/__title/timetable__title.css);
+
+@import url(../blocks/inst/inst.css);
+@import url(../blocks/inst/__container/inst__container.css);
+@import url(../blocks/inst/__img/inst__img.css);
+@import url(../blocks/inst/__title/inst__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__head/footer__head.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__network/footer__network.css);
+@import url(../blocks/footer/__paragraph/footer__paragraph.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__row/footer__row.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__content/footer__content.css);

@@ -1,0 +1,10 @@
+.timetable__arrow {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .timetable__arrow {
+        width: 20px;
+        height: 10px;
+    }
+}

@@ -1,0 +1,16 @@
+.footer__social {
+    display: flex;
+    margin-top: 42px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__social {
+        margin-top: 67px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer__social {
+        margin-top: 42px;
+    }
+}

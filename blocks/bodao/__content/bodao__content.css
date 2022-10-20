@@ -1,0 +1,18 @@
+.bodao__content {
+    background-image: url(../../../images/bodao.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .bodao__content {
+        background-size: 578px 628px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bodao__content {
+        background-size: contain;
+    }
+}

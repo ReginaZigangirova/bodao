@@ -1,0 +1,22 @@
+@media screen and (max-width: 1440px) {
+    .inst__img {
+        width: 363px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inst__img {
+        width: 354px;
+        height: 354px;
+    }
+    .inst__img:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .inst__img {
+        width: 150px;
+        height: 150px;
+    }
+}

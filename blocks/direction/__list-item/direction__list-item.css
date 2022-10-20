@@ -1,0 +1,41 @@
+.direction__list-item {
+    background-image: url(../../../images/box.png);
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.direction__list-item:nth-of-type(2) {
+    background-image: url(../../../images/kikbox.png);
+}
+
+.direction__list-item:nth-of-type(3) {
+    background-image: url(../../../images/mma.png);
+}
+
+.direction__list-item:nth-of-type(4) {
+    background-image: url(../../../images/gitsu.png);
+}
+
+@media screen and (max-width: 1440px) {
+    .direction__list-item {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .direction__list-item {
+        width: 384px;
+        height: 300px;
+        background-position: center;
+        background-size: 384px 300px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .direction__list-item {
+        width: 360px;
+        height: 300px;
+        background-position: center;
+        background-size: 360px 300px;
+    }
+}

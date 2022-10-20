@@ -1,0 +1,19 @@
+.footer__container {
+    margin-top: 43px;
+}
+
+.footer__container:first-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__container:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .footer__container:first-of-type {
+        text-align: center;
+    }
+}

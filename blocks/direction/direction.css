@@ -1,0 +1,21 @@
+.direction {
+    padding: 180px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .direction {
+        padding: 150px 100px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .direction {
+        padding: 245px 0 0;
+    }
+}
+
+@media screen and (max-width: 620x) {
+    .direction {
+        padding: 205px 0 0;
+    }
+}

@@ -1,0 +1,49 @@
+.coach__content {
+    background-image: url(../../../images/coachmen.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 630px;
+    height: 550px;
+}
+
+.coach__content:last-child {
+    background-image: url(../../../images/coachwomen.png);
+    width: 630px;
+    height: 449px;
+}
+
+@media screen and (max-width: 1440px) {
+    .coach__content {
+        width: 500px;
+    }
+    .coach__content:last-child {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .coach__content {
+        width: 354px;
+        height: 310px;
+    }
+    .coach__content:last-child {
+        width: 354px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .coach__content {
+        width: 320px;
+        height: 280px;
+        background-position: center;
+        background-size: contain;
+    }
+    .coach__content:last-child {
+        margin-top: 185px;
+        width: 320px;
+        height: 280px;
+        background-position: center;
+        background-size: contain;
+    }
+}

@@ -1,0 +1,33 @@
+.coach__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0;
+    color: #FFFFFF;
+    max-width: 630px;
+    position: absolute;
+    bottom: -131px;
+}
+
+@media screen and (max-width: 1440px) {
+    .coach__text {
+        font-size: 14px;
+        bottom: -121px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .coach__text {
+        font-size: 16px;
+        max-width: 354px;
+        bottom: -165px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .coach__text {
+        font-size: 14px;
+        bottom: -145px;
+        max-width: 320px;
+    }
+}

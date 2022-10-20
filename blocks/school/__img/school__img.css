@@ -1,0 +1,39 @@
+.school__img {
+    width: 384px;
+    height: 384px;
+    bottom: -95px;
+    position: absolute;
+    right: 0;
+    border: 2px solid #FFFFFF;
+    border-radius: 192px;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .school__img {
+        width: 295px;
+        height: 295px;
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .school__img {
+        width: 150px;
+       height: 150px;
+       padding: 10px;
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .school__img {
+        right: 115px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .school__img {
+        right: 0;
+        bottom: -41px;
+    }
+}

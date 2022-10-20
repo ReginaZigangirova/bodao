@@ -1,0 +1,11 @@
+.header__row {
+    display: none;
+}
+
+@media screen and (max-width: 425px) {
+    .header__row {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
