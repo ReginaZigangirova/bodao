@@ -24,10 +24,20 @@
 
 @media screen and (max-width: 768px) {
     .direction__list-item {
+        background-image: url(../../../images/b1.png);
         width: 384px;
         height: 300px;
-        background-position: center;
-        background-size: 384px 300px;
+    }
+    .direction__list-item:nth-of-type(2) {
+        background-image: url(../../../images/b2.png);
+    }
+    
+    .direction__list-item:nth-of-type(3) {
+        background-image: url(../../../images/b3.png);
+    }
+    
+    .direction__list-item:nth-of-type(4) {
+        background-image: url(../../../images/b4.png);
     }
 }
 
